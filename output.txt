@@ -1,1 +1,3 @@
-Hello World
+Enter the number of rows: 
+* 
+* * 
