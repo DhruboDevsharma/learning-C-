@@ -1,6 +1,4 @@
- enter the number of rows:
-* * * * * 
-* * * * 
+Enter row number: 
 * * * 
 * * 
 * 
