@@ -3,11 +3,11 @@
 using namespace std;
 
 int main(){
-    int a =5;
+    int a =5.678;
     
 
     
-    cout << sqrt(a);
+    cout << round(a);
     // need to call <cmath> library to use tthis function.
     return 0;
 }
