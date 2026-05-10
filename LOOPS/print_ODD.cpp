@@ -8,7 +8,9 @@ int main(){
     int i=0;
 
     while (i<=n){
-        cout << i<<endl;
+        if(i%2 != 0){
+            cout << i << endl;
+        }
         i++;
     }
 }
