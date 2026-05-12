@@ -1,0 +1,3 @@
+ENter the arr number
+6MAX
+Second largest 2
