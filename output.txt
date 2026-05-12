@@ -1,1 +1,3 @@
-16
+Enter the number os array elements
+Enter the target value
+Repeated number :3
