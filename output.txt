@@ -1,2 +1,2 @@
 Enter the size of array
-Total :16
+Avarage :4
