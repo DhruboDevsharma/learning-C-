@@ -1,1 +1,1 @@
-Enter array size: Enter 5 elements: Copied array: 1 2 3 4 5 
+Enter array size: Enter 5 elements: Array is sorted in ascending order
