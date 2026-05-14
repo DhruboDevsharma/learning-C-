@@ -14,15 +14,22 @@ int main(){
 
     int max = arr[0];
 
-    for(int i=0; i<n-1; i++){
-        if(max<arr[i]){
+    for(int i=0; i<n; i++){
+        if(max< arr[i]){
             max = arr[i];
-        }
+        }    
+    }
+    int sec= 0;
+    for(int i=0;i<n; i++){
+        if(sec<max){
+            sec = sec;
 
+        if( sec>arr[i]){
+            sec=arr[i];
+        }
     }
-    cout << max<< "MAX"<<endl;
-    if(max < arr[n-1]){
-        cout << "Second largest"<< max;
-    }
-    else{ cout <<"Second largest "<< arr[n-1];}
+}
+   
+    cout <<"Second largest "<< sec;
+
 }

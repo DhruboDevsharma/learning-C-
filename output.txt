@@ -1,3 +1,2 @@
 ENter the arr number
-6MAX
-Second largest 2
+Second largest 0
