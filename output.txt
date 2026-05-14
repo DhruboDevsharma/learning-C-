@@ -1,2 +1,2 @@
-ENter the arr number
-Second largest 0
+Enter the size of array
+Total :16
