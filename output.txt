@@ -1,2 +1,3 @@
 Enter the size of array
-Avarage :4
+ Total even numbers: 6
+Total odd numbers : 4
