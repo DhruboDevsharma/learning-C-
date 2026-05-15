@@ -2,30 +2,42 @@
 using namespace std;
 
 int main() {
-    int n;
-    cin >> n;   // total range is 1..n
-    int arr[n-1];
 
-    // input array of size n-1
-    for(int i = 0; i < n-1; i++) {
+    int n;
+    cin >> n;
+
+    int arr[n];
+
+    for(int i = 0; i < n; i++) {
         cin >> arr[i];
     }
 
-    // Step 1: expected sum of 1..n
-    int expectedSum = 0;
-    for(int i = 1; i <= n; i++) {
-        expectedSum += i;
+    // find maximum element
+    int mx = arr[0];
+
+    for(int i = 1; i < n; i++) {
+        if(arr[i] > mx) {
+            mx = arr[i];
+        }
     }
 
-    // Step 2: actual sum of given array
-    int actualSum = 0;
-    for(int i = 0; i < n-1; i++) {
-        actualSum += arr[i];
-    }
+    // check missing numbers
+    for(int num = 1; num <= mx; num++) {
 
-    // Step 3: missing number
-    int missing = expectedSum - actualSum;
-    cout << missing;
+        bool found = false;
+
+        for(int i = 0; i < n; i++) {
+
+            if(arr[i] == num) {
+                found = true;
+                break;
+            }
+        }
+
+        if(found == false) {
+            cout << num << " ";
+        }
+    }
 
     return 0;
 }
