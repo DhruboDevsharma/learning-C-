@@ -1,2 +1,1 @@
-Enter size of array: Enter array elements: 
-Array is Palindromic
+4
