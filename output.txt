@@ -1,1 +1,2 @@
-Enter array size: Enter 5 elements: Array is sorted in ascending order
+Enter size of array: Enter array elements: 
+Array is Palindromic
