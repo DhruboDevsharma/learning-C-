@@ -1,1 +1,2 @@
-2 4 
+Enter number of elements: Enter elements: Largest = 90
+Second Largest = 70
