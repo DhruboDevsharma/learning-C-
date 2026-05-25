@@ -1,7 +1,6 @@
 Enter number of rows: 
-Enter number of columns: 
-*   * 
-  *   
-*   * 
-  *   
-*   * 
+    *
+   * *
+  *   *
+ *     *
+*********
