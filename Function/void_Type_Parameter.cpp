@@ -7,9 +7,13 @@ void My_name(string name){
 
 int main(){
 
-    string name;
+    string name, nam, nam1;
 
     cin >> name;
+    cin >> nam;
+    cin >> nam1;
 
     My_name(name);  
+    My_name(nam);
+    My_name(nam1);
 }
