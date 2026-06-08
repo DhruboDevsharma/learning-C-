@@ -1,3 +1,2 @@
-I am dhrub
-I am raf
-I am gffgd
+Sum=30
+Differ= -10
