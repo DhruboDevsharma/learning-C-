@@ -1,8 +1,3 @@
-Enter Value 1: 
-Enter Value 2: 
-Largest: 5
-Smallest : 3
-Sum: 8
-Difference :2
-Multiple : 15
-ratio : 1
+Dhrubo Dev
+v
+r

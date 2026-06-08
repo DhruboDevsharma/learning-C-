@@ -6,6 +6,8 @@ int main(){
     string second = "Dev";
 
     string full= First +" "+ second;
+    cout << full << endl;
+
 
     cout << full[9];
 
