@@ -1,2 +1,1 @@
-Sum=30
-Differ= -10
+Factorial : 120
